@@ -1,5 +1,3 @@
-import Menú	
-import time
 
 class Persona():
     
