@@ -1,12 +1,12 @@
+import time
+import Menú
+from clase import Persona
+
 def programa():
     """
         Esta función es la que contiene toda la lógica del programa
     
     """
-    import time
-    import Menú
-    from clase import Persona
-   
     while True:
         Menú.menu()
         a = int(input('Por favor ingrese la opción que desea: '))
