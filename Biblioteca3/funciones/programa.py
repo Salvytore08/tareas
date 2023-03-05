@@ -4,11 +4,11 @@ def programa():
     
     """
     import time
-    import menu
+    import Menú
     from clase import Persona
    
     while True:
-        menu.menu()
+        Menú.menu()
         a = int(input('Por favor ingrese la opción que desea: '))
         time.sleep(1.2)
 
